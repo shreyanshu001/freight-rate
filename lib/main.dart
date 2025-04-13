@@ -107,7 +107,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Header
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -135,8 +134,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                   ],
                 ),
                 const SizedBox(height: 16),
-
-                // Origin and Destination
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.white,
@@ -146,7 +143,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // Origin section
                       Row(
                         children: [
                           Radio(
@@ -188,8 +184,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 16),
-
-                      // Destination section
                       Row(
                         children: [
                           Radio(
@@ -231,8 +225,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 16),
-
-                      // Commodity and Date
                       Row(
                         children: [
                           Expanded(
@@ -260,8 +252,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 16),
-
-                      // Shipment Type
                       const Text('Shipment Type:',
                           style: TextStyle(fontSize: 14)),
                       const SizedBox(height: 8),
@@ -305,8 +295,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 16),
-
-                      // Container Size
                       Container(
                         padding: const EdgeInsets.symmetric(
                             horizontal: 12, vertical: 4),
@@ -352,8 +340,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 12),
-
-                      // Rate info
                       Container(
                         padding: const EdgeInsets.all(8),
                         child: const Text(
@@ -363,8 +349,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 12),
-
-                      // Boxes and Weight
                       Row(
                         children: [
                           Expanded(
@@ -393,7 +377,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
 
                       const SizedBox(height: 16),
 
-                      // Container Dimensions
                       const Text('Container Internal Dimensions:'),
                       const SizedBox(height: 8),
                       Row(
@@ -432,8 +415,6 @@ class _FreightSearchScreenState extends State<FreightSearchScreen> {
                       ),
 
                       const SizedBox(height: 16),
-
-                      // Search Button
                       Align(
                         alignment: Alignment.centerRight,
                         child: ElevatedButton.icon(
